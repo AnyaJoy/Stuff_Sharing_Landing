@@ -34,7 +34,7 @@ export default function Home() {
                 future for our planet and each other!
               </div>
               <p className="mb-5">
-                Stay in touch to be the first to use the alpha version!
+                Stay in touch to be the first to use the beta version!
               </p>
               <div className="grid grid-cols-3 gap-2 w-2/3">
                 <input
