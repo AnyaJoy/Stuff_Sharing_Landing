@@ -46,8 +46,7 @@ Honestly, no challenge, I had to make it done, turned out nice, decided to uploa
 
 In the future I would like to add features as:
 
-- Connection to a database to store emails
-- Login and signup pages
+- Login and signup, blog, mission, contact pages
 
 ## Authors
 
