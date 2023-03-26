@@ -8,7 +8,7 @@ const techPages = [{ name: "SIGN UP", slug: "/signup" }, { name: "LOGIN", slug: 
 
 function Navbar() {
   return (
-    <div className='w-screen flex justify-between bg-white px-40 py-4 navbar'>
+    <div className='w-screen flex justify-between bg-white md:px-40 px-10 py-4 navbar'>
         <div className='flex justify-center'>
             <Link href="/" className='flex justify-center align-middle'>
                 <Image src={plant} alt='logo' className='h-8 w-8'/>
