@@ -24,7 +24,7 @@ function Navbar() {
                 ))}
             </div>
         </div>
-        <div className='hidden md:contents lg:flex '>
+        <div className='hidden md:flex '>
             {techPages.map((page, index) => (
                 <Link href={page.slug} key={page.name}>
                     <span className='ml-4 cursor-pointer hover:text-grey transition duration-700 text-sm font-semibold tracking-wider'>

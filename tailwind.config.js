@@ -43,6 +43,9 @@ module.exports = {
       'orange-bg': '#FB923C',
     },
     screens: {
+      'xs': '300px',
+      // => @media (min-width: 300px) { ... }
+
       'sm': '600px',
       // => @media (min-width: 600px) { ... }
 

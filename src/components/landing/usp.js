@@ -34,19 +34,19 @@ function USP() {
 
   return (
     <div className="md:px-40 px-10 md:py-14 py-5 content-center w-screen">
-      <div className="md:grid md:grid-cols-12 mb-16">
-        <div className="col-span-7">
-          <div className="text-4xl md:text-7xl mb-5">Borrow & Save.</div>
-          <div className="text-4xl md:text-7xl mb-8">Share & Earn.</div>
-          <div className="text-2xl md:mb-16 mb-5 text-orange font-fairy-tale">
+      <div className="lg:grid lg:grid-cols-12 mb-16">
+        <div className="col-span-7 text-center md:text-left">
+          <div className="text-4xl sm:text-7xl mb-5 ">Borrow & Save.</div>
+          <div className="text-4xl sm:text-7xl mb-8">Share & Earn.</div>
+          <div className="text-2xl md:mb-16 mb-5 text-orange font-fairy-tale mx-5 md:mx-0">
             Reuse all sorts of things as a part of a global community of people
             advocating for sustainable living and creating a better future for
             our planet and each other!
           </div>
-          <p className="mb-5">
+          <p className="mb-5 mt-16 md:mt-0">
             Stay in touch to be the first to use the beta version!
           </p>
-          <div className="grid grid-cols-3 gap-2 md:w-2/3">
+          <div className="grid grid-cols-3 gap-2 w-fit mx-auto md:mx-0 sm:w-1/2 md:w-2/3">
             <input
               className="col-span-2 shadow appearance-none rounded w-full py-2 px-3 text-gray-500 leading-tight outline outline-1 outline-neutralGrey focus:outline-orange-light focus:shadow-outline"
               id="email"
@@ -69,7 +69,7 @@ function USP() {
             </p>
           )}
         </div>
-        <div className="col-span-5">
+        <div className="col-span-5 mx-auto w-fit lg:mt-0 mt-20">
           <Image src={planet} alt="logo" className="max-h-full w-auto" />
         </div>
       </div>

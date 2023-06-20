@@ -7,7 +7,7 @@ function Mission() {
     <div className="md:px-40 px-10 w-screen md:py-32 py-20 content-center bg-orange-bg text-white text-2xl">
       <div className="md:grid grid-cols-12 gap-10">
         <div className="col-span-7">
-          <h1 className="text-5xl mb-10">Why?</h1>
+          <h1 className="text-5xl mb-16 md:mb-10 md:text-left text-center">Why?</h1>
           <p className="mb-8">
             By sharing we help one another get the experiences without having to
             buy things that will pile up in our homes.
@@ -21,7 +21,7 @@ function Mission() {
             landfills and the oceans.
           </p>
         </div>
-        <div className="col-span-5 md:mt-o mt-10">
+        <div className="col-span-5 md:mt-o mt-16 w-fit mx-auto md:mx-0">
           <Image
             src={house}
             alt="logo"

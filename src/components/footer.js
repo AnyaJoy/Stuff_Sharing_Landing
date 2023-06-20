@@ -23,9 +23,6 @@ function Footer() {
           </div>
           <div className='flex justify-between text-xs text-grey mt-5'>
             <div> © All rights reserved: D Foundation LLC. </div>
-            <div>
-              Logo: <a href="https://www.flaticon.com/free-icons/ecology-and-environment" title="ecology-and-environment icons">Ecology-and-environment icons created by Uniconlabs - Flaticon</a>
-            </div>
           </div>
         </div>
   )
