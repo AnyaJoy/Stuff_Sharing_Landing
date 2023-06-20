@@ -9,14 +9,14 @@ function Instruction() {
     <div className="md:px-40 px-10 w-screen md:py-32 py-20 content-center bg-white text-2xl">
       <h1 className="text-5xl mb-14 md:text-left text-center">How does it work?</h1>
       <div className="md:grid grid-cols-12 mb-5 gap-10">
-        <div className="col-span-4 hidden md:flex">
+        <div className="col-span-4 lg:col-span-3 hidden md:flex">
           <Image
             src={guitar}
             alt="logo"
             className="h-56 w-auto rounded-full"
           />
         </div>
-        <div className="col-span-8 my-auto">
+        <div className="col-span-8 lg:col-span-9 my-auto">
           <span className="text-orange text-2xl">1. </span>
           You want to pick up playing the guitar but not quite sure it is your
           thing.
@@ -27,7 +27,7 @@ function Instruction() {
         </div>
       </div>
       <div className="md:grid grid-cols-12 gap-10 mb-5">
-        <div className="col-span-8 my-auto">
+        <div className="col-span-8 lg:col-span-9 my-auto">
           <span className="text-orange text-2xl">2. </span>
           The neighbour places an ad and sets a fair value he wants to receive
           or decides to share it for free through the platform.
@@ -35,7 +35,7 @@ function Instruction() {
             You connect and set a time and place for an exchange.
           </p>
         </div>
-        <div className="col-span-4 hidden md:flex">
+        <div className="col-span-4 lg:col-span-3 hidden md:flex">
           <Image
             src={computer}
             alt="logo"
@@ -44,14 +44,14 @@ function Instruction() {
         </div>
       </div>
       <div className="md:grid grid-cols-12 mb-5 gap-10">
-        <div className="col-span-4 hidden md:flex">
+        <div className="col-span-4 lg:col-span-3 hidden md:flex">
           <Image
             src={coin}
             alt="logo"
             className="h-56 w-auto rounded-full"
           />
         </div>
-        <div className="col-span-8 my-auto">
+        <div className="col-span-8 lg:col-span-9 my-auto">
           <span className="text-orange text-2xl">3. </span>
           As the exchange happens the coins from your account are transferred to
           his.
