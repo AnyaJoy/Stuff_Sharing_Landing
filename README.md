@@ -36,7 +36,7 @@ Honestly, no challenge, I had to make it done, turned out nice, decided to uploa
 
 - NextJs
 - Tailwind
-- Mudjourney :P
+- Midjourney :P
 
 ### What I learned
 
