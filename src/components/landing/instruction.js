@@ -21,7 +21,7 @@ function Instruction() {
           You want to pick up playing the guitar but not quite sure it is your
           thing.
           <p className="mt-3">
-            Your neighbour, on the other, hand owns a guitar, but has not had
+            Your neighbor, on the other, hand owns a guitar, but has not had
             time to practice recently.{" "}
           </p>
         </div>
@@ -29,7 +29,7 @@ function Instruction() {
       <div className="md:grid grid-cols-12 gap-10 mb-5">
         <div className="col-span-8 lg:col-span-9 my-auto">
           <span className="text-orange text-2xl">2. </span>
-          The neighbour places an ad and sets a fair value he wants to receive
+          The neighbor places an ad and sets a fair value he wants to receive
           or decides to share it for free through the platform.
           <p className="mt-3">
             You connect and set a time and place for an exchange.
